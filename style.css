@@ -1,0 +1,364 @@
+
+.image-1, .image-2, .image-3  {
+  	position: relative;
+  	opacity: 1;
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.image-1 {
+  	background-image: url("images/157071_2520x1153.jpg");
+  	min-height: 100%;
+}
+
+.image-2 {
+  	background-image: url("images/154393_2160x1440.jpg");
+  	min-height: 100%;
+}
+
+.image-3 {
+  	background-image: url("images/216134_1440x1367.jpg");
+  	min-height: 100%;
+}
+
+.container {margin: auto; z-index: 1;}
+
+.navbox {
+	position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+	background-color: #693;
+	margin: auto;
+}
+
+/*/
+
+body{
+  font-family: "Titillium Web", sans-serif;
+	margin:0;
+	width:100%;
+	height:100vh;
+  	background:#ffffff;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+header {
+	width:100%; 
+	background:#693; 
+	height:60px; 
+	line-height:60px;
+}
+/*/
+
+.hamburger{
+  background:none;
+  position:absolute;
+  top:-10px;
+  right:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#fff;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+/*/
+
+.cross {
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:7px 15px 0px 15px;
+  color:#fff;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+/*/
+
+.menu {
+	z-index: 1000000;
+	font-weight: bold;
+	font-size: 0.8em;
+	width: 18%;
+	background: #693;
+	position: absolute;
+ 	top:30pz;
+  	right:10px;
+	text-align: center;
+	font-size: 12px;
+	}
+
+.menu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	list-style-image: none;
+	}
+.menu li {
+	display: block;
+	padding: 15px 0 15px 0;
+	border-bottom: #dddddd 1px solid;
+	}
+
+.menu li:hover {
+	display: block;
+	background: #80bf40;
+	padding: 15px 0 15px 0;
+	border-bottom: #dddddd 1px solid;
+	}
+
+.menu ul li a {
+	text-decoration: none;
+	margin: 0px; color: #666;
+	}
+
+.menu ul li a:hover {
+	color: #fff;
+	text-decoration: none;
+	}
+
+.menu a {
+	text-decoration: none; 
+	color: #fff;
+	}
+
+.menu a:hover {
+	text-decoration: none;
+	color: #fff;
+	}
+
+.glyphicon-home{
+  color:white; 
+  font-size: 1.5em; 
+  margin-top: 5px; 
+  margin: 0 auto;
+}
+
+header {
+	display: inline-block; 
+	font-size: 12px;
+	}
+
+span {
+	padding-left: 20px;
+	}
+a {
+	color: #336699;
+}
+
+.text {
+	font-family: "Titilium Web", sans-serif;
+	font-size: 9px;
+	color: #fff;
+}
+
+.logo {
+	border-radius: 22px;
+	position: fixed; 
+	margin-top: 10px;  
+	padding: 15px 20px 5px 20px;  
+	display: block; 
+	background-color: #693;
+	margin-left: 50px;
+	size: 
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/2 "Titillium Web", sans-serif;
+  background-color: transparent;
+}
+
+.caption {
+  	position: absolute;
+	padding: auto;
+  	left: 0;
+  	top: 30%;
+  	width: 100%;
+ 	text-align: center;
+	vertical-align: middle;
+  	color: #fff;
+	font-size: 55px;
+	line-height: 1.25;
+  	letter-spacing: -.5px;
+	text-shadow: 3px 3px 4px #000000;
+	font-family: "Bevan", serif;
+}
+
+.caption span {
+ 	background-color: transparent;
+  	color: #fff;
+  	padding: 0px;
+	vertical-align: middle;
+}
+
+h1 {
+  	text-align: center;
+	font-size: 40px;
+	line-height: 1.25;
+  	text-transform: none;
+	font-family: "Bevan", serif;
+	color: #fff;
+
+}
+
+h2 {
+	text-align: center;
+	margin: 90px 0pc 0px 0px;
+	line-height: 1;
+  	text-transform: none;
+	font-family: "Bevan", serif;
+	color: #fff;
+}
+
+h3 {
+	text-align: center;
+  	text-transform: none;
+	font-family: "Titillium Web";
+	color: #fff;
+}
+
+.digitalarea {
+	padding: 30px 80px;
+	position: relative;
+	background-color: #333;
+	text-align: center;
+	font-size: 18px;
+  	text-transform: none;
+	font-family: "Roboto", serif;
+	color: #fff;
+}
+
+.printarea {
+	padding: 50px 80px;
+	position: relative;
+	text-align: center;
+	font-size: 18px;
+  	text-transform: none;
+	font-family: "Roboto", serif;
+	color: #666;
+}
+
+p {
+	text-align: center;
+  	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+	line-height: 1.25;
+  	letter-spacing: -.5px;
+  	color: #fff;
+	margin: 15px;
+}
+
+.slideone {
+	background-color: #c63;
+	padding: 50px 80px;
+	position: relative;
+}
+
+.footer {
+	background-color: #34495e;
+	padding: 20px 5px 20px 5px;
+	position: relative;
+}
+
+hr { 
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: .5px;
+}
+
+.quickreads {
+	text-align: center;
+  	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+  	color: #fff;
+}
+	
+.legal {
+	text-align: center;
+  	font-family: "Titillium Web", sans-serif;
+	font-size: 10px;
+  	color: #fff;
+	}
+
+.socialicons {
+	color: #fff;
+	align: center;
+	padding: 0px 10px 0px 10px;
+	font-size: 25px;
+}
+
+a:hover { 
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0px 0px 10px #000;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) 
+   
+	.image-1, .image-2, .image-3 {
+        background-attachment: scroll;
+    }
+	
+.samples-slide {
+	flex-wrap: wrap;
+  	background-color: #333;
+	padding: 50px;
+	}
+
+.portfolio-header { 
+	font-family; "Titillium Web", sans serif;
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+}
+
+.flex-portfolio {
+  	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: left;
+  	align-content: left;
+  	border: 5px solid yellow;
+  }
+
+/* Some default styles to make each box visible */
+.box {
+  	color:white;
+  	font-size: 30px;
+  	text-align: center;
+  	padding:10px;
+  	width: 100px;
+	height: 100px;
+}
+
+
+/* Colours for each box */
+.box1 { background:#1abc9c;}
+.box2 { background:#3498db;}
+.box3 { background:#9b59b6;}
+.box4 { background:#34495e;}
+.box5 { background:#f1c40f;}
+.box6 { background:#e67e22;}
+.box7 { background:#e74c3c;}
+.box8 { background:#bdc3c7;}
+.box9 { background:#2ecc71;}
+.box10 { background:#16a085;}
